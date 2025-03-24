@@ -1,4 +1,4 @@
-FROM node:18
+FROM --platform=arm64 node:22
 
 # Install basic development tools
 RUN apt update && apt install -y less man-db sudo

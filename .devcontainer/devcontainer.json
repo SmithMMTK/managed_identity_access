@@ -1,6 +1,6 @@
 // See https://containers.dev/implementors/json_reference/ for configuration reference
 {
-	"name": "Untitled Node.js project",
+	"name": "Access to Azure via Managed Identity",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
