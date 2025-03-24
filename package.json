@@ -1,0 +1,25 @@
+{
+  "name": "managed_identity_access",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmithMMTK/managed_identity_access.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SmithMMTK/managed_identity_access/issues"
+  },
+  "homepage": "https://github.com/SmithMMTK/managed_identity_access#readme",
+  "description": "",
+  "dependencies": {
+    "@azure/identity": "^4.8.0",
+    "@azure/storage-blob": "^12.27.0",
+    "dotenv": "^16.4.7"
+  }
+}
