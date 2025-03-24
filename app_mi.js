@@ -1,9 +1,16 @@
+require('dotenv').config();
+
+
 const { DefaultAzureCredential } = require("@azure/identity");
 const { BlobServiceClient } = require("@azure/storage-blob");
 
 const accountName = process.env.STORAGE_ACCOUNT_NAME;
 const containerName = process.env.BLOB_CONTAINER_NAME;
 const blobName = process.env.BLOB_NAME;
+
+
+
+console.log("Env values:", { accountName, containerName, blobName });
 
 async function main() {
   const credential = new DefaultAzureCredential(); // Will pick up the VM's managed identity
@@ -34,4 +41,3 @@ function streamToString(readableStream) {
     readableStream.on("error", reject);
   });
 }
-
