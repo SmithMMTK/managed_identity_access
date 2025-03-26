@@ -1,3 +1,4 @@
 STORAGE_ACCOUNT_NAME=strgcunningcattle
 BLOB_CONTAINER_NAME=mycontainer
 BLOB_NAME=textfile.txt
+AZURE_CLIENT_ID=7d58aa42-3d5e-4571-a36b-f843c76dd763
